@@ -1,0 +1,14 @@
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.exe
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.deps.json
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.runtimeconfig.json
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.dll
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\bin\Debug\net8.0\DependencyInjectionExample.pdb
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.AssemblyInfoInputs.cache
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.AssemblyInfo.cs
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.dll
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\refint\DependencyInjectionExample.dll
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.pdb
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\DependencyInjectionExample.genruntimeconfig.cache
+C:\Users\ANUSHKA\source\repos\DependencyInjectionExample\DependencyInjectionExample\obj\Debug\net8.0\ref\DependencyInjectionExample.dll

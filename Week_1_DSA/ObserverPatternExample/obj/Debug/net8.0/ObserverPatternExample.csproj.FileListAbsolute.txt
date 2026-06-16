@@ -1,0 +1,14 @@
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\bin\Debug\net8.0\ObserverPatternExample.exe
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\bin\Debug\net8.0\ObserverPatternExample.deps.json
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\bin\Debug\net8.0\ObserverPatternExample.runtimeconfig.json
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\bin\Debug\net8.0\ObserverPatternExample.dll
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\bin\Debug\net8.0\ObserverPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.AssemblyInfoInputs.cache
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.AssemblyInfo.cs
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.dll
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\refint\ObserverPatternExample.dll
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ObserverPatternExample.genruntimeconfig.cache
+C:\Users\ANUSHKA\source\repos\ObserverPatternExample\ObserverPatternExample\obj\Debug\net8.0\ref\ObserverPatternExample.dll

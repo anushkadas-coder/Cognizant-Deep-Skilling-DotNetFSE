@@ -1,0 +1,14 @@
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\bin\Debug\net8.0\AdapterPatternExample.exe
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\bin\Debug\net8.0\AdapterPatternExample.deps.json
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\bin\Debug\net8.0\AdapterPatternExample.runtimeconfig.json
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\bin\Debug\net8.0\AdapterPatternExample.dll
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\bin\Debug\net8.0\AdapterPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.AssemblyInfoInputs.cache
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.AssemblyInfo.cs
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.dll
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\refint\AdapterPatternExample.dll
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\AdapterPatternExample.genruntimeconfig.cache
+C:\Users\ANUSHKA\source\repos\AdapterPatternExample\AdapterPatternExample\obj\Debug\net8.0\ref\AdapterPatternExample.dll

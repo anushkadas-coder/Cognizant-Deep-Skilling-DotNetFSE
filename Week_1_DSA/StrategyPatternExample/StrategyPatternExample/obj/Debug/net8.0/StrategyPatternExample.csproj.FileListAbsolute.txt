@@ -1,0 +1,14 @@
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\bin\Debug\net8.0\StrategyPatternExample.exe
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\bin\Debug\net8.0\StrategyPatternExample.deps.json
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\bin\Debug\net8.0\StrategyPatternExample.runtimeconfig.json
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\bin\Debug\net8.0\StrategyPatternExample.dll
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\bin\Debug\net8.0\StrategyPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.AssemblyInfoInputs.cache
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.AssemblyInfo.cs
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.dll
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\refint\StrategyPatternExample.dll
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\StrategyPatternExample.genruntimeconfig.cache
+C:\Users\ANUSHKA\source\repos\StrategyPatternExample\StrategyPatternExample\obj\Debug\net8.0\ref\StrategyPatternExample.dll

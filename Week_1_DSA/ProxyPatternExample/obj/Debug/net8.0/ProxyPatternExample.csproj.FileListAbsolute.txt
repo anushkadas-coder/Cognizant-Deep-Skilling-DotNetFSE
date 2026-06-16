@@ -1,0 +1,14 @@
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\bin\Debug\net8.0\ProxyPatternExample.exe
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\bin\Debug\net8.0\ProxyPatternExample.deps.json
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\bin\Debug\net8.0\ProxyPatternExample.runtimeconfig.json
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\bin\Debug\net8.0\ProxyPatternExample.dll
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\bin\Debug\net8.0\ProxyPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.AssemblyInfoInputs.cache
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.AssemblyInfo.cs
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.dll
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\refint\ProxyPatternExample.dll
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ProxyPatternExample.genruntimeconfig.cache
+C:\Users\ANUSHKA\source\repos\ProxyPatternExample\ProxyPatternExample\obj\Debug\net8.0\ref\ProxyPatternExample.dll

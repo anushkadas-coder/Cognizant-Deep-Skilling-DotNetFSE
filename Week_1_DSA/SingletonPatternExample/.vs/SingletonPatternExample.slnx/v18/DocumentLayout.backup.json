@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AEAC9F-F9BA-4CC7-BD72-7CF18620A0F6}|SingletonPatternExample\\SingletonPatternExample.csproj|c:\\users\\anushka\\source\\repos\\singletonpatternexample\\singletonpatternexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AEAC9F-F9BA-4CC7-BD72-7CF18620A0F6}|SingletonPatternExample\\SingletonPatternExample.csproj|solutionrelative:singletonpatternexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AEAC9F-F9BA-4CC7-BD72-7CF18620A0F6}|SingletonPatternExample\\SingletonPatternExample.csproj|c:\\users\\anushka\\source\\repos\\singletonpatternexample\\singletonpatternexample\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AEAC9F-F9BA-4CC7-BD72-7CF18620A0F6}|SingletonPatternExample\\SingletonPatternExample.csproj|solutionrelative:singletonpatternexample\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AEAC9F-F9BA-4CC7-BD72-7CF18620A0F6}|SingletonPatternExample\\SingletonPatternExample.csproj|c:\\users\\anushka\\source\\repos\\singletonpatternexample\\singletonpatternexample\\singletonpatternexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2AEAC9F-F9BA-4CC7-BD72-7CF18620A0F6}|SingletonPatternExample\\SingletonPatternExample.csproj|solutionrelative:singletonpatternexample\\singletonpatternexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\SingletonPatternExample\\Logger.cs",
+              "RelativeDocumentMoniker": "SingletonPatternExample\\Logger.cs",
+              "ToolTip": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\SingletonPatternExample\\Logger.cs",
+              "RelativeToolTip": "SingletonPatternExample\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:09:22.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SingletonPatternExample",
+              "DocumentMoniker": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\SingletonPatternExample\\SingletonPatternExample.csproj",
+              "RelativeDocumentMoniker": "SingletonPatternExample\\SingletonPatternExample.csproj",
+              "ToolTip": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\SingletonPatternExample\\SingletonPatternExample.csproj",
+              "RelativeToolTip": "SingletonPatternExample\\SingletonPatternExample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-16T13:07:21.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\SingletonPatternExample\\Program.cs",
+              "RelativeDocumentMoniker": "SingletonPatternExample\\Program.cs",
+              "ToolTip": "C:\\Users\\ANUSHKA\\source\\repos\\SingletonPatternExample\\SingletonPatternExample\\Program.cs",
+              "RelativeToolTip": "SingletonPatternExample\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T13:06:17.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

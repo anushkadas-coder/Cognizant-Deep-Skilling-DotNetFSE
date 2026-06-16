@@ -1,0 +1,14 @@
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\bin\Debug\net8.0\DecoratorPatternExample.exe
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\bin\Debug\net8.0\DecoratorPatternExample.deps.json
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\bin\Debug\net8.0\DecoratorPatternExample.runtimeconfig.json
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\bin\Debug\net8.0\DecoratorPatternExample.dll
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\bin\Debug\net8.0\DecoratorPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.AssemblyInfoInputs.cache
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.AssemblyInfo.cs
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.dll
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\refint\DecoratorPatternExample.dll
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.pdb
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\DecoratorPatternExample.genruntimeconfig.cache
+C:\Users\ANUSHKA\source\repos\DecoratorPatternExample\DecoratorPatternExample\obj\Debug\net8.0\ref\DecoratorPatternExample.dll
