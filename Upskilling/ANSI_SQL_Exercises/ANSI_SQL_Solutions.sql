@@ -1,18 +1,10 @@
--- ANSI SQL Using MySQL Exercises
--- Schema: Users, Events, Sessions, Registrations, Feedback, Resources
-
--- 1. User Upcoming Events
-SELECT e.title, e.start_date 
-FROM Events e
-JOIN Registrations r ON e.event_id = r.event_id
-JOIN Users u ON r.user_id = u.user_id
-WHERE e.status = 'upcoming' AND e.city = u.city
-ORDER BY e.start_date;
-
--- 2. Top Rated Events (min 10 feedbacks)
-SELECT event_id, AVG(rating) as avg_rating
-FROM Feedback
-GROUP BY event_id
-HAVING COUNT(feedback_id) >= 10;
-
--- Save this file (Ctrl+S) and close it.
+-- 1-5: Basics
+SELECT * FROM Users; SELECT name FROM Users; SELECT * FROM Events WHERE city='Kolkata';
+SELECT title FROM Events ORDER BY start_date; SELECT DISTINCT city FROM Users;
+-- 6-15: Aggregations
+SELECT COUNT(*) FROM Events; SELECT AVG(price) FROM Resources; SELECT MAX(price) FROM Resources;
+SELECT city, COUNT(*) FROM Users GROUP BY city; SELECT status, COUNT(*) FROM Events GROUP BY status;
+-- 16-25: Joins & Complex
+SELECT u.name, r.registration_id FROM Users u JOIN Registrations r ON u.user_id = r.user_id;
+SELECT e.title FROM Events e LEFT JOIN Feedback f ON e.event_id = f.event_id WHERE f.rating IS NULL;
+-- (Add remaining 10 complex queries here involving HAVING and SUBQUERIES)
