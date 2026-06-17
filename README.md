@@ -25,3 +25,35 @@ This repository contains the mandatory assignments implemented in C# (.NET 8.0) 
 * **Language:** C#
 * **Runtime:** .NET 8.0 (Long-Term Support)
 * **IDE:** Visual Studio 2022
+
+  ---
+
+## 🌐 Week 2: Enterprise Full-Stack Integration & Secure Portal
+
+Now, the repository has been scaled into a fully production-grade multi-tier architecture, combining the robust .NET backend with a highly reactive modern frontend dashboard.
+
+### 🏗️ Extended Architecture & Subsystems
+
+1. **`WebApiHandson` (The Backend Core Engine)**
+   * Built using **ASP.NET Core 8.0 Web API**.
+   * Implemented custom controllers to expose production-ready REST endpoints (`GET`, `POST`, `PUT`, `DELETE`).
+   * Configured global **CORS (Cross-Origin Resource Sharing)** management policies to securely whitelist and pipe stream queries exclusively to the frontend client.
+
+2. **`ReactHandson` (The Premium UI Layer)**
+   * Engineered with **React.js (Vite environment)** using a clean, modern aesthetic.
+   * Utilized **Axios** asynchronous wrappers to lifecycle-hook backend state payloads directly into the UI component tree.
+   * Features real-time state reductions computing active inventory values and SKU parameters automatically.
+
+3. **Client-Side Authorization & Router Guard**
+   * Integrated **React Router Dom** to migrate the SPA framework into a secure multi-page web portal.
+   * Developed a pristine **Gatekeeper Login Interface** enforcing strict context validation.
+   * Implemented encapsulating **Protected Route Wrappers** preventing unauthorized URL hijacking attempts.
+
+### 🛠️ Local Launch Sequence
+
+To test the entire full-stack pipeline locally:
+
+1. **Boot the API Server:**
+   ```bash
+   cd WebApiHandson
+   dotnet run
