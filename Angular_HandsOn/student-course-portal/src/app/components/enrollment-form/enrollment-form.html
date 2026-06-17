@@ -1,0 +1,76 @@
+<div style="padding: 24px; font-family: sans-serif; max-width: 500px; margin: 20px auto; background: white; border-radius: 12px; border: 1px solid #E4E8EF; box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+  <h2 style="margin: 0 0 4px 0; font-size: 18px; color: #0D1117; font-weight: 600;">Reactive Enrollment Engine</h2>
+  <p style="margin: 0 0 20px 0; font-size: 13px; color: #7A8499;">Hands-On 5: FormBuilder, FormGroup & FormArray Vector Stack.</p>
+
+  @if (isSubmitted) {
+    <div style="background: #ECFDF3; border: 1px solid #BBF7D0; padding: 16px; border-radius: 8px; color: #16A34A; text-align: center;">
+      <h4 style="margin: 0 0 4px 0; font-weight: 600;">✓ Reactive Engine Synchronized!</h4>
+      <p style="margin: 0; font-size: 13px;">Advanced payload data locked into memory stack successfully.</p>
+      <button (click)="resetForm()" style="margin-top: 12px; padding: 6px 12px; background: #16A34A; color: white; border: none; border-radius: 4px; font-size: 12px; cursor: pointer;">Add Another Record</button>
+    </div>
+  } @else {
+    <form [formGroup]="enrollForm" (ngSubmit)="onFormSubmit()">
+      
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; font-size: 12px; font-weight: 500; margin-bottom: 6px; color: #444;">Full Name *</label>
+        <input type="text" formControlName="fullName" placeholder="Enter registration name" style="width: 100%; height: 36px; padding: 0 10px; border: 1px solid #D1D9E6; border-radius: 6px; box-sizing: border-box; outline: none; font-size: 13px;" />
+        @if (enrollForm.get('fullName')?.invalid && enrollForm.get('fullName')?.touched) {
+          <span style="color: #DC2626; font-size: 11px; display: block; margin-top: 4px;">⚠️ Valid name (min 4 chars) is strictly expected.</span>
+        }
+      </div>
+
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; font-size: 12px; font-weight: 500; margin-bottom: 6px; color: #444;">Academic/Corporate Email *</label>
+        <input type="email" formControlName="email" placeholder="username@domain.com" style="width: 100%; height: 36px; padding: 0 10px; border: 1px solid #D1D9E6; border-radius: 6px; box-sizing: border-box; outline: none; font-size: 13px;" />
+        @if (enrollForm.get('email')?.touched) {
+          @if (enrollForm.get('email')?.errors?.['required'] || enrollForm.get('email')?.errors?.['email']) {
+            <span style="color: #DC2626; font-size: 11px; display: block; margin-top: 4px;">⚠️ Please specify a valid operational email format.</span>
+          } @else if (enrollForm.get('email')?.errors?.['invalidDomain']) {
+            <span style="color: #DC2626; font-size: 11px; display: block; margin-top: 4px;">⚠️ Security Block: Only standard corporate domains (.com / .edu) are allowed.</span>
+          }
+        }
+      </div>
+
+      <div style="margin-bottom: 16px;">
+        <label style="display: block; font-size: 12px; font-weight: 500; margin-bottom: 6px; color: #444;">Target Track Module *</label>
+        <select formControlName="courseCode" style="width: 100%; height: 36px; padding: 0 10px; border: 1px solid #D1D9E6; border-radius: 6px; box-sizing: border-box; outline: none; font-size: 13px;">
+          <option value="">-- Select Target --</option>
+          <option value="DOTNET8">Advanced Enterprise .NET Architecture</option>
+          <option value="ANG20">Reactive Web Engines with Angular</option>
+        </select>
+        @if (enrollForm.get('courseCode')?.invalid && enrollForm.get('courseCode')?.touched) {
+          <span style="color: #DC2626; font-size: 11px; display: block; margin-top: 4px;">⚠️ Target module selection is mandatory.</span>
+        }
+      </div>
+
+      <div style="margin-bottom: 20px; background: #F8FAFC; padding: 14px; border-radius: 8px; border: 1px solid #E2E8F0;" formArrayName="prerequisites">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+          <label style="font-size: 12px; font-weight: 600; color: #334155;">Prior Completed Certifications (Optional)</label>
+          <button type="button" (click)="addPrerequisite()" style="padding: 4px 8px; background: #3B6BF8; color: white; border: none; border-radius: 4px; font-size: 11px; font-weight: 600; cursor: pointer;">+ Add</button>
+        </div>
+        
+        @for (ctrl of prerequisitesArray.controls; track $index) {
+          <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+            <input type="text" [formControlName]="$index" placeholder="e.g., Coursera SQL, Azure Basics" style="flex: 1; height: 32px; padding: 0 8px; border: 1px solid #CBD5E1; border-radius: 4px; outline: none; font-size: 12px;" />
+            <button type="button" (click)="removePrerequisite($index)" style="padding: 0 8px; background: #EF4444; color: white; border: none; border-radius: 4px; font-size: 11px; cursor: pointer;">Remove</button>
+          </div>
+        }
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <label style="display: flex; align-items: center; gap: 8px; font-size: 12px; color: #444; cursor: pointer;">
+          <input type="checkbox" formControlName="acceptTerms" />
+          I declare that the information above matches corporate training profiles.
+        </label>
+        @if (enrollForm.get('acceptTerms')?.invalid && enrollForm.get('acceptTerms')?.touched) {
+          <span style="color: #DC2626; font-size: 11px; display: block; margin-top: 4px;">⚠️ Verification acceptance is required.</span>
+        }
+      </div>
+
+      <button type="submit" [disabled]="enrollForm.invalid" style="width: 100%; height: 38px; background: #0D1117; color: white; border: none; border-radius: 6px; font-weight: 600; font-size: 13px; cursor: pointer;" [style.opacity]="enrollForm.invalid ? '0.5' : '1'">
+        Dispatched Reactive Registry
+      </button>
+
+    </form>
+  }
+</div>
