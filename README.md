@@ -1,59 +1,47 @@
-# Cognizant Deep-Skilling - .NET FSE (Week 1 Submission)
+# 🚀 Cognizant Digital Nurture 5.0 | .NET FSE Portfolio
 
-This repository contains the mandatory assignments implemented in C# (.NET 8.0) for Week 1 training.
+Welcome to my submission repository for the **.NET Full Stack Engineer (FSE) Deep Skilling Program**. This repository contains modularized, week-wise submissions for the 14 core modules covering the entire engineering lifecycle.
 
-## 🛠️ Design Patterns Implemented (11 Exercises)
+---
 
-### Creational Patterns
-* **Exercise 1: Singleton Pattern** - Thread-safe centralized logging utility class.
-* **Exercise 2: Factory Method Pattern** - Decoupled document management system supporting Word, PDF, and Excel creation.
-* **Exercise 3: Builder Pattern** - Step-by-step construction of complex Computer setups with optional parts.
+## 📅 Weekly Learning & Submission Roadmap
 
-### Structural Patterns
-* **Exercise 4: Adapter Pattern** - Dynamic integration interface unifying disparate payment gateways (PayPal, Stripe).
-* **Exercise 5: Decorator Pattern** - Dynamic runtime channel addition (SMS, Slack) over a baseline Email notifier core.
-* **Exercise 6: Proxy Pattern** - Smart structural proxy for localized memory buffering, asset lazy-loading, and image caching.
+| Week | Skill Module | Folder Directory | Status |
+| :--- | :--- | :--- | :--- |
+| **01** | Data Structures & Design Patterns | `Week_1_DSA/` | ✅ Done |
+| **02** | Advanced SQL (SQL Server) | `Advanced_SQL/` | ✅ Done |
+| **03** | Unit Testing (NUnit & Moq) | `UnitTestingHandson/` | ✅ Done |
+| **04** | ORM Framework (EF Core 8.0) | `EFCoreHandson/` | ✅ Done |
+| **05** | Web API (ASP.NET Core 8.0) | `WebApiHandson/` | ✅ Done |
+| **06** | Frontend: React Framework | `ReactHandson/` | ✅ Done |
+| **07** | Frontend: Angular (v20.0) | `Angular_HandsOn/` | ✅ Done |
 
-### Behavioral & Architectural Patterns
-* **Exercise 7: Observer Pattern** - Event-driven real-time multi-client messaging platform tracking stock market tickers.
-* **Exercise 8: Strategy Pattern** - Dynamic runtime polymorphic checkout mechanism shifting billing strategies interchangeably.
-* **Exercise 9: Command Pattern** - Loose-coupled home automation system routing remote execution objects safely to hardware receivers.
-* **Exercise 10: MVC Pattern** - Decoupled separation of concerns engine handling student profile datasets via strict Controller routes.
-* **Exercise 11: Dependency Injection** - Constructor injection architectural pipeline isolating service logic from data providers.
+---
 
-## 🚀 Environment Specifications
-* **Language:** C#
-* **Runtime:** .NET 8.0 (Long-Term Support)
-* **IDE:** Visual Studio 2022
+## 🛠️ Technical Highlights
 
-  ---
+### 🏛️ Engineering & Design Principles
+* **SOLID Principles:** Applied to ensure maintainable and scalable code.
+* **Design Patterns:** Implemented Creational (Singleton, Factory), Structural (Decorator, Proxy), and Behavioral (Observer, Strategy) patterns.
 
-## 🌐 Week 2: Enterprise Full-Stack Integration & Secure Portal
+### 💻 Full-Stack Development
+* **Backend:** ASP.NET Core 8.0 Web API with JWT Authentication, EF Core ORM, and Global Exception Handling.
+* **Frontend:** Modern, responsive SPAs built using **React** (Vite environment) and **Angular v20** (Standalone APIs, RxJS, NgRx State Management).
 
-Now, the repository has been scaled into a fully production-grade multi-tier architecture, combining the robust .NET backend with a highly reactive modern frontend dashboard.
+### 🧪 Quality Assurance
+* **Testing Stack:** Comprehensive unit testing suites developed using NUnit/Moq (Backend) and Jasmine/Karma (Angular).
 
-### 🏗️ Extended Architecture & Subsystems
+---
 
-1. **`WebApiHandson` (The Backend Core Engine)**
-   * Built using **ASP.NET Core 8.0 Web API**.
-   * Implemented custom controllers to expose production-ready REST endpoints (`GET`, `POST`, `PUT`, `DELETE`).
-   * Configured global **CORS (Cross-Origin Resource Sharing)** management policies to securely whitelist and pipe stream queries exclusively to the frontend client.
+## 🚀 Getting Started
 
-2. **`ReactHandson` (The Premium UI Layer)**
-   * Engineered with **React.js (Vite environment)** using a clean, modern aesthetic.
-   * Utilized **Axios** asynchronous wrappers to lifecycle-hook backend state payloads directly into the UI component tree.
-   * Features real-time state reductions computing active inventory values and SKU parameters automatically.
+To launch the project locally, please navigate to the specific module directory:
 
-3. **Client-Side Authorization & Router Guard**
-   * Integrated **React Router Dom** to migrate the SPA framework into a secure multi-page web portal.
-   * Developed a pristine **Gatekeeper Login Interface** enforcing strict context validation.
-   * Implemented encapsulating **Protected Route Wrappers** preventing unauthorized URL hijacking attempts.
+1. **Backend API:** `cd WebApiHandson && dotnet run`
+2. **Angular Portal:** `cd Angular_HandsOn/student-course-portal && npm start`
 
-### 🛠️ Local Launch Sequence
+---
 
-To test the entire full-stack pipeline locally:
+> **Developer Note:** All mandatory hands-on exercises identified in the program curriculum have been implemented, tested, and verified for functionality.
 
-1. **Boot the API Server:**
-   ```bash
-   cd WebApiHandson
-   dotnet run
+*Created by: Anushka Das | Digital Nurture 5.0 Participant*
