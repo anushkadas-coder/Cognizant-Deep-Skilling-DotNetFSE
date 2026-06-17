@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Event Portal</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1 id="title">Hello World!</h1>
-    <button id="hideBtn">Hide Div</button>
-    <div class="box" style="width:50px; height:50px; background:blue;"></div>
-    
-    <input type="text" id="userInput">
-    <button id="addBtn">Add to List</button>
-    <ul id="list"></ul>
-
-    <script src="jquery_script.js"></script>
+    <div id="app">
+        <h1>Community Events</h1>
+        <div id="eventList"></div>
+        <form id="regForm">
+            <input type="text" name="username" placeholder="Name" required>
+            <button type="submit" id="registerBtn">Register</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

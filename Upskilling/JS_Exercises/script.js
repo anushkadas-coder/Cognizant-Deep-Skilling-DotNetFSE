@@ -1,35 +1,34 @@
-// Ex 1 & 2: Basics & Data
+// Ex 1, 2: Basics
 console.log("Welcome to the Community Portal");
-alert("Page Loaded!");
-let seats = 10;
-const eventName = "Baking Workshop";
+window.onload = () => alert("Page Loaded!");
+const eName = "Music Fest"; 
+let seats = 5; 
+console.log(`Registering for ${eName}. Seats left: ${seats}`);
 
-// Ex 5: Objects & Prototypes
-class Event {
-    constructor(name, seats) { this.name = name; this.seats = seats; }
-    checkAvailability() { return this.seats > 0; }
-}
+// Ex 4: Closure for Registration Tracking
+const createTracker = () => {
+    let count = 0;
+    return () => ++count;
+};
+const trackReg = createTracker();
 
-// Ex 6 & 9: Arrays & Async/Await
-const events = [new Event("Music Fest", 5), new Event("Baking Workshop", 0)];
+// Ex 5, 6: Objects & Arrays
+class Event { constructor(n, s, cat) { this.n=n; this.s=s; this.cat=cat; } }
+Event.prototype.checkAvailability = function() { return this.s > 0; };
+let events = [new Event("Music Fest", 5, "Music"), new Event("Baking", 0, "Workshop")];
 
-async function fetchEvents() {
+// Ex 7, 8, 11: DOM, Events, Forms
+document.getElementById('regForm').onsubmit = function(e) {
+    e.preventDefault(); // Ex 11
     try {
-        // Mock fetch (Ex 9 & 12)
-        const data = await new Promise(resolve => setTimeout(() => resolve(events), 1000));
-        renderEvents(data);
-    } catch (err) { console.error(err); }
-}
+        if(seats <= 0) throw "No seats!";
+        seats--;
+        trackReg();
+        alert("Registered!");
+    } catch(err) { alert(err); }
+};
 
-// Ex 7 & 11: DOM & Forms
-function renderEvents(list) {
-    const container = document.getElementById('eventContainer');
-    list.filter(e => e.checkAvailability()).forEach(e => {
-        let div = document.createElement('div');
-        div.innerHTML = `<h3>${e.name}</h3> <button class="regBtn">Register</button>`;
-        container.appendChild(div);
-    });
-}
-
-document.getElementById('regForm').onsubmit = (e) => e.preventDefault(); // Ex 11
-fetchEvents();
+// Ex 14: jQuery
+$('#registerBtn').click(function() {
+    $(this).fadeOut(500).fadeIn(500);
+});
