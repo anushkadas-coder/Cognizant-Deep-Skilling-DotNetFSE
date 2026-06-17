@@ -1,0 +1,13 @@
+/* Universal Selector */
+* { margin: 0; padding: 0; }
+
+/* Body Background */
+body { background-color: #f0f0f0; }
+
+/* ID & Class Selectors */
+#mainHeader { color: blue; }
+.eventCard { border: 2px solid black; padding: 10px; }
+
+@media (max-width: 768px) {
+    .eventCard { background-color: yellow; }
+}
