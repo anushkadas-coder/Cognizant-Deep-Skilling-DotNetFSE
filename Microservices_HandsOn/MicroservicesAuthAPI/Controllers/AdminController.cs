@@ -8,10 +8,10 @@ namespace MicroservicesAuthAPI.Controllers
     public class AdminController : ControllerBase
     {
         [HttpGet("dashboard")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")] // Question 3: Strictly locked for Admin role
         public IActionResult GetAdminDashboard()
         {
-            return Ok("Welcome to the admin dashboard. High privilege access granted.");
+            return Ok("Welcome to the secure admin dashboard. High-privilege clearance granted.");
         }
     }
 }

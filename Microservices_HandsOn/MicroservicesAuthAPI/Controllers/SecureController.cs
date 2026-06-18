@@ -8,10 +8,10 @@ namespace MicroservicesAuthAPI.Controllers
     public class SecureController : ControllerBase
     {
         [HttpGet("data")]
-        [Authorize]
+        [Authorize] // Question 2: Base Token authorization interceptor
         public IActionResult GetSecureData()
         {
-            return Ok("This is protected data. Token validated successfully!");
+            return Ok("This is protected data. Token verification validation successful!");
         }
     }
 }

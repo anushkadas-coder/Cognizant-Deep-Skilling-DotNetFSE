@@ -19,7 +19,7 @@ namespace MicroservicesAuthAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginModel model)
         {
-            // Simple validation simulation
+            // Simulating a user profile validation mapping
             if (model.Username == "admin" && model.Password == "password")
             {
                 var token = GenerateJwtToken(model.Username);
@@ -30,7 +30,7 @@ namespace MicroservicesAuthAPI.Controllers
 
         private string GenerateJwtToken(string username)
         {
-            // Question 3: Adding admin role token configurations
+            // Question 3: Dynamic Admin claims setup
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name, username),
