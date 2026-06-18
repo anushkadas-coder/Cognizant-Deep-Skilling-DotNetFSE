@@ -26,14 +26,14 @@ The codebase is organized intentionally according to Cognizant’s four major en
 ## 🛠️ Detailed Technical Highlights
 
 ### 🏛️ Foundational Engineering & Patterns (`Engineering_Concepts`)
-* **Creational Integrity:** Implemented a thread-safe, lazy-initialized **Singleton Pattern** for central application logging utilities. Leveraged the **Factory Method Pattern** to dynamically instantiate loose-coupled document types (`Pdf`, `Word`, `Excel`) decoupling client instantiation logic.
+* **Creational Integrity:** Implemented a thread-safe, lazy-initialized **Singleton Pattern** for central application logging utilities. Leveraged the **Factory Method Pattern** to dynamically instantiate loose-coupled document types (`Pdf`, `Word`, `Excel`), decoupling client instantiation logic.
 * **Algorithmic Benchmarking:** Structured optimized lookup patterns using `Dictionary<K,V>` mechanics yielding $O(1)$ runtime speed thresholds. Implemented **Binary Search** routines over pre-sorted matrices providing $O(\log n)$ scalability profiles compared to baseline $O(n)$ linear loops.
 * **Mathematical Recursion:** Developed an architectural forecasting tool utilizing safe tail-recursive convergence checks to calculate geometric multi-year investment valuations without stacking buffer flags.
 
 ### 🔒 Secure Microservices Architecture (`Microservices_HandsOn`)
 * **Cryptographic Authorization:** Configured JSON Web Token (JWT) emission pipelines signed using 256-bit symmetric cryptographic security key hashing algorithms (`HmacSha256`).
 * **Granular Role Checks:** Protected sensitive platform boundaries against privilege escalation flaws by enforcing active identity role constraints (`[Authorize(Roles = "Admin")]`).
-* **Graceful Token Trapping:** Intercepted invalid or expired authentication payloads inside the JwtBearer asynchronous pipeline pipeline lifecycle (`OnAuthenticationFailed`) to cleanly communicate validation faults via custom response headers.
+* **Graceful Token Trapping:** Intercepted invalid or expired authentication payloads inside the asynchronous JwtBearer pipeline lifecycle (`OnAuthenticationFailed`) to cleanly communicate validation faults via custom response headers.
 
 ### 🗄️ Database Mapping & Concurrency Tuning (`EFCoreHandson`)
 * **Query Performance Tuning:** Leveraged `.AsNoTracking()` projection mechanics within analytics query blocks to bypass Entity Framework track-cache loops, dropping memory overhead during report fetching.
