@@ -60,3 +60,23 @@ To verify any functional execution flow locally, open your terminal context and 
 cd Engineering_Concepts
 dotnet restore
 dotnet run
+```
+
+### Launching the Secure Microservices API Gateway
+```bash
+cd Microservices_HandsOn/MicroservicesAuthAPI
+dotnet restore
+dotnet build
+dotnet run
+```
+
+### Running the QA Testing Engine
+```bash
+cd UnitTestingHandson/PlayerManager.Tests
+dotnet test
+```
+
+***
+**Portfolio Developer:** Anushka Das (`anushkadas-coder`)  
+**Track Specialization:** .NET Full Stack Engineer (FSE) Deep-Skilling  
+**Program Iteration:** Cognizant Digital Nurture 5.0 Program Portfolio
